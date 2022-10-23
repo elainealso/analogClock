@@ -17,7 +17,3 @@ CSS resseting:
   box-sizing: border-box;
 }
 
-
-
-# analogClock
-# analogClock

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  /* to center the body horizontally */
+  align-items: center;
+  /* to center the body vertically */
+  /* it only works with viewport height */
+  height: 100vh;
+  background-color: lightgoldenrodyellow;
+}
+
+.clock {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: solid 5px rgb(7, 18, 9);
+  position: absolute;
+}
+
+#seconds-hand {
+  position: absolute;
+  height: 130px;
+  width: 2px;
+  background-color: rgb(26, 37, 37);
+  right: 50%;
+  bottom: 50%;
+  opacity: 50%;
+  transform-origin: 50% 100%;
+}
+
+#minutes-hand {
+  height: 100px;
+  width: 2px;
+  background-color: rgb(40, 44, 39);
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: 50% 100%;
+}
+
+#hours-hand {
+  height: 80px;
+  width: 4px;
+  background-color: rgb(5, 22, 8);
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: 50% 100%;
+}
+
+#center {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: rgb(43, 44, 43);
+  position: absolute;
+  left: 48%;
+  bottom: 48%;
+}
